@@ -23,8 +23,9 @@ function search(arr, x) {
         if (guess < x) {
             min = mid + 1;
         }
+        
     }
 
     return 'none';
 }
-console.log(search(array, 9))
+console.log(search(array, 40))
